@@ -72,7 +72,7 @@ fun_atts () {
 
 echo -e "                              \033[1;31mBy LUFFYELBRABO\033[1;36m"
 
-echo -e "   SSH-PLUS" | figlet
+echo -e "   D-NET-VPN" | figlet
 
 echo " "
 
