@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # encoding: utf-8
-# Socks D-NET-VPN
+# Socks luffyelbrabo
 import socket, threading, thread, select, signal, sys, time
 from os import system
 system("clear")
@@ -229,7 +229,7 @@ def main(host=IP, port=PORT):
     print "\033[0;34m━"*8,"\033[1;32m PROXY SOCKS","\033[0;34m━"*8,"\n"
     print "\033[1;33mIP:\033[1;32m " + IP
     print "\033[1;33mPORTA:\033[1;32m " + str(PORT) + "\n"
-    print "\033[0;34m━"*10,"\033[1;32m luffyelbrabo","\033[0;34m━\033[1;37m"*11,"\n"
+    print "\033[0;34m━"*10,"\033[1;32m D-NET-VPN","\033[0;34m━\033[1;37m"*11,"\n"
     server = Server(IP, PORT)
     server.start()
     while True:

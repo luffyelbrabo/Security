@@ -1,11 +1,11 @@
 #!/bin/bash
 #===================================================
-#   SCRIPT: BOT SSH PLUS
+#   SCRIPT: BOT D-NET-VPN
 #   DATA ATT: 18 de JuL 2022
-#   DESENVOLVIDO POR: TURBONETPN2023
+#   DESENVOLVIDO POR: D-NET-VPN
 #   API SHELLBOT: ORION
-#   CONTATO TELEGRAM: http://t.me/TURBONET2023
-#   CANAL TELEGRAM: http://t.me/TURBONET2023
+#   CONTATO TELEGRAM: http://t.me/luffyelbrabo
+#   CONTATO TELEGRAM: @luffyelbrabo
 #===================================================
 [[ ! -d /etc/SSHPlus ]] && exit 0
 [[ ! -d /etc/bot ]] && exit 0
@@ -23,7 +23,7 @@ fun_menu() {
     [[ "${message_from_id[$id]}" == "$id_admin" ]] && {
         local env_msg
 env_msg="╔═══════•⊱✦⊰•═══════╗\n"
-        env_msg+="<b>        BOT D-NET-VPN</b>\n"
+        env_msg+="<b>        BOT-D-NET-VPN</b>\n"
         env_msg+="╚═══════•⊱✦⊰•═══════╝\n\n"
         env_msg+="⚠️ <i>SELECIONE UMA OPCAO ABAIXO !</i>\n\n"
         ShellBot.sendMessage --chat_id ${message_chat_id[$id]} --text "$env_msg" \
@@ -890,9 +890,9 @@ sobremim() {
     env_msg="╔═══════•⊱✦⊰•═══════╗\n"
         env_msg+="<b>BOT SSH PLUS</b>\n"
         env_msg+="╚═══════•⊱✦⊰•═══════╝\n\n"
-    msg+="<b>Desenvolvido por:</b> D-NET-VPN\n"
-    msg+="<b>Telegram Oficial:</b> @@luffyelbrabo\n\n"
-    msg+="Foi criado com o propósito de fornecer informações e ferramentas para gestão VPN em servidores 🐧 GNU/Linux 🐧.\n\n"
+    msg+="<b>Desenvolvido por:</b> @smigolvip\n"
+    msg+="<b>Canal Oficial:</b> @SSHPLUS\n\n"
+    msg+="Fui criado com o propósito de fornecer informações e ferramentas para gestão VPN em servidores 🐧 GNU/Linux 🐧.\n\n"
     msg+="<b>Menu:</b> /menu\n"
     ShellBot.sendMessage --chat_id ${message_chat_id[$id]} \
         --text "$(echo -e $msg)" \

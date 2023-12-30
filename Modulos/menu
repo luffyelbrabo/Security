@@ -531,7 +531,7 @@ case "$x" in
    echo -ne "\n\033[1;31mENTER \033[1;33mpara retornar ao \033[1;32mMENU!\033[0m"; read
    ;; 
    24)
-   bash <(curl -sL https://raw.githubusercontent.com/luffyelbrabo/proxy/main/install.sh) && mainproxy
+   bash <(curl -sL https://raw.githubusercontent.com/PhoenixxZ2023/proxy/main/install.sh) && mainproxy
    ;;
    25)
    menu2

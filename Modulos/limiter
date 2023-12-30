@@ -1,9 +1,9 @@
 #!/bin/bash
 #====================================================
-#	SCRIPT: LIMITER D-NET-VPN MANAGER
-#	DESENVOLVIDO POR:	D-NET-VPN
-#	CONTATO TELEGRAM:	http://t.me/luffyelbrabo
-#	CONTATO TELEGRAM:	@luffyelbrabo
+#	SCRIPT: LIMITER SSHPLUS MANAGER
+#	DESENVOLVIDO POR:	CRAZY_VPN
+#	CONTATO TELEGRAM:	http://t.me/crazy_vpn
+#	CANAL TELEGRAM:	http://t.me/sshplus
 #====================================================
 clear
 system=$(cat /etc/issue.net)
