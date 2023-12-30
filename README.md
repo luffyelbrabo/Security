@@ -1,5 +1,5 @@
 
-# SSH-PLUS 2023/2024⚡
+# D-NET-VPN 2023⚡
 
 # TELEGRAM @luffyelbrabo
 
@@ -44,13 +44,12 @@
 bash <(wget -qO- https://raw.githubusercontent.com/luffyelbrabo/senharoot/main/senharoot.sh)
 ```
 
-# SSH-PLUS 2023 INSTALAÇÃO
+# D-NET-VPN 2023 INSTALAÇÃO
 
-# ATUALIZAR SISTEMA E INSTALAR SCRIPT SSH-PLUS 2023!
+# ATUALIZAR SISTEMA E INSTALAR SCRIPT D-NET-VPN 2023!
 
 ```bash
 apt update -y && apt upgrade -y && wget -y; bash <(wget -qO- raw.githubusercontent.com/luffyelbrabo/Security/main/ssh-plus)
 ```
 
 # ########################################################################################################################
-
