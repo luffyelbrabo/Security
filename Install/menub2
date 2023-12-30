@@ -1,6 +1,6 @@
 #!/bin/bash
     clear
-    echo -e "\033[01;31m║\033[1;31m\033[5;34;47m                 MENU HERRAMIENTAS PRO                   \033[1;33m \033[0m\033[01;31m║"
+    echo -e "\033[01;31m║\033[1;31m\033[5;34;47m                 MENU FERRAMENTAS PRO                   \033[1;33m \033[0m\033[01;31m║"
     echo -e "\033[01;31m║\033[0m"
     echo -e "\033[01;31m║\033[1;31m\033[1;34m[\033[1;37m 01 •\033[1;34m]\033[1;37m ➩  \033[1;33mINSTALAR UDP-CUSTOM \033[0m"
     echo -e "\033[01;31m║\033[1;31m\033[1;34m[\033[1;37m 02 •\033[1;34m]\033[1;37m ➩  \033[1;33mABRIR MENU UDP-CUSTOM \033[0m"
@@ -13,7 +13,7 @@
     echo -e "\033[01;31m║\033[0m"
     echo -e "\033[0;31m╠━━═━═━═━═━═━═━═━═━━═━═━═━═━═━━═━═━═━═━═━━═━═━═━═━═━\033[0m"
 			tput civis
-			echo -ne "\033[1;31m╰━━━━━━━━❪\033[1;32mSELECCIONE UNA OPCION\033[1;33m\033[1;31m\033[1;37m : ";
+			echo -ne "\033[1;31m╰━━━━━━━━❪\033[1;32mSELECIONE UMA OPÇÃO\033[1;33m\033[1;31m\033[1;37m : ";
 			read x
 			tput cnorm
 			clear

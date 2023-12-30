@@ -1,6 +1,6 @@
 #!/bin/bash
 #====================================================
-#	@smigolvip
+#	@luffyelbrabo
 #====================================================
 _lvk=$(wget -qO- https://raw.githubusercontent.com/luffyelbrabo/Security/main/Modulos/versao)
 IP=$(wget -qO- ipv4.icanhazip.com)
