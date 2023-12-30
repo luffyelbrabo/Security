@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # encoding: utf-8
-# Socks luffyelbrabo
+# Socks D-NET-VPN
 import socket, threading, thread, select, signal, sys, time
 from os import system
 system("clear")

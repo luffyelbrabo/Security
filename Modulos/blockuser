@@ -3,7 +3,7 @@ clear
 ###############################################################
 #Programa para bloquear temporariamente e desbloquear contas de usuario"
 ###############################################################
-#SMIGOL PRO MANAGER
+#D-NET-VPN PRO MANAGER
 ###############################################################
 clear
 while [  "$op"  !=  "3" ]
