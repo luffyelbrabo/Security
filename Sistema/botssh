@@ -1,6 +1,6 @@
 #!/bin/bash
 clear
-#--------@SSH-PLUS-----------#
+#--------@D-NET-VPN-----------#
 source ShellBot.sh
 touch lista
 [[ -z $1 ]] && {
