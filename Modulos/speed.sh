@@ -49,7 +49,7 @@ speedtest --share > speed
 ### MENU
 tput clear
 pres_adm
-echo -e "\e[1;33m         SPEED-TEST | \e[1;32m[ADMATRIX-PRO] \e[0m"
+echo -e "\e[1;33m         SPEED-TEST | \e[1;32m[D-NET-VPN-PRO] \e[0m"
 msg -bar
 aguarde 'fun_tst'
 png=$(cat speed | sed -n '5 p' |awk -F : {'print $NF'})
